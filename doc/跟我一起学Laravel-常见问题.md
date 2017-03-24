@@ -247,7 +247,7 @@ Eloquent模型会触发下列事件
          */
         public function getIsAdminAttribute()
         {
-            return $this->attributes['admin'] == 'yes';
+            return $this->attributes['admin'] = 'yes';
         }
     }
 
